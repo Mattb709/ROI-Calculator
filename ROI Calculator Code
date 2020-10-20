@@ -1,0 +1,14 @@
+#Variables assume the purchase of a rental property, but they can be changed
+#as user sees fit
+
+
+Investment = 50000
+Rent = 8600
+Loss = 200
+
+def ROI(Investment, Rent, Loss):
+    NetProfit = Rent * 12 - Loss
+    ROI = (NetProfit/Investment)*100
+    print(ROI)
+    
+ROI(Investment, Rent, Loss)
